@@ -3,4 +3,7 @@ Recent advances in heterophily and graph diffusion models have attracted conside
 
 before run XXX.sh, change the file_path in code first.
 
-Beside run XXX.sh, you can also
+Beside run XXX.sh, you can also run python GCN-test.py --run_num 2 --k 2 --dataset chameleon-filtered --selfMask true --train_ratio 0.65 --val_ratio 0.05 --otherEmbeding True --typeEmbeding HGT --diffusion True --alpha 0.5 --beta 1 --gamma 0.5 --device cuda:1
+in your PYcharm.
+More about environment in requirement.txt
+
